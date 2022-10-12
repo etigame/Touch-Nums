@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Touch the Numbers</title>
+  <link rel="stylesheet" href="touchNums.css" />
+</head>
+
+<body onload="init()">
+  <h1>Touch the Numbers 👆</h1>
+  <div class="levels">
+    <select name="" onchange="init(event.target.value)">
+      <option value="">--Choose a level--</option>
+      <option value="16">Easy</option>
+      <option value="25">Hard</option>
+      <option value="36">Extreme!</option>
+    </select>
+  </div>
+  <h2>
+    You should click the buttons in a sequence from 1, 2, 3... and so on
+  </h2>
+  <div>
+    <table></table>
+  </div>
+  <h3 class="timer"></h3>
+
+  <script src="touchNums.js"></script>
+</body>
+
+</html>

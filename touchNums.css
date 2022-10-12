@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    background-color: brown;
+    color: burlywood;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: brown;
+}
+
+table {
+    border: 2px solid brown;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid brown;
+
+    transition: 0.5s;
+}
+
+td:hover {
+    background-color: orange;
+}
+
+.time {
+    background-color: rgb(245, 193, 38);
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.levels {
+    background-color: burlywood;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+
+}
+
+select {
+    background-color: rgb(245, 193, 38);
+    padding: 5px;
+}
